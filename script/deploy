@@ -3,7 +3,7 @@ ssh  ubuntu@13.234.222.148 <<EOF
   cd ~/node
   git pull
   npm install --production
-  forever restartall
+  sudo forever restartall
   exit
 EOF
 
